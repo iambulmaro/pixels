@@ -1,0 +1,36 @@
+{
+  "name": "astro-starter-ghost",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A starter template to build lightning fast websites with Ghost and Astro",
+  "license": "MIT",
+  "author": "PhilDL",
+  "homepage": "https://github.com/PhilDL/astro-starter-ghost/",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "prettier --write .",
+    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint ."
+  },
+  "prettier": {},
+  "devDependencies": {
+    "@astrojs/renderer-svelte": "0.5.2",
+    "@astrojs/rss": "^2.1.0",
+    "@astrojs/sitemap": "^1.0.1",
+    "@snowpack/plugin-dotenv": "^2.2.0",
+    "@tryghost/content-api": "^1.11.5",
+    "@tryghost/social-urls": "^0.1.34",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "astro": "^2.0.8",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-astro": "^0.23.0",
+    "prettier": "^2.8.4",
+    "prettier-plugin-astro": "^0.8.0",
+    "sass": "^1.58.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
+}
